@@ -1,0 +1,25 @@
+#include <iostream>
+#include <limits>
+	
+using namespace std ;
+    int main()
+{
+ double num1 , num2 ,temp ;
+ 
+ cout<< "enter value of first integer:  ";
+ cin>> num1;
+ 
+  cout<< "enter value of second integer:  ";
+ cin>> num2;
+    
+    temp = num1;
+    num1= num2;
+    num2= temp;
+    
+    cout<< "after swapping"  <<endl;
+    cout<< "first integer "<<endl;
+    cout<< "second integer "<<endl;
+    
+return 0;
+
+}
